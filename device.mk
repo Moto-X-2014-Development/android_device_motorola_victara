@@ -307,6 +307,13 @@ PRODUCT_PACKAGES += \
     libcurl \
     libxml2
 
+# Telephony
+PRODUCT_PACKAGES += \
+    ims-ext-common_system
+
+PRODUCT_BOOT_JARS += \
+    ims-ext-common_system
+
 # Thermal
 PRODUCT_PACKAGES += \
     libshims_thermal
