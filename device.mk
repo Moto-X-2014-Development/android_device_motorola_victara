@@ -371,3 +371,6 @@ PRODUCT_PACKAGES += \
     Terminal \
     messaging \
     LatinIME
+
+# Inherit APN info from device
+PRODUCT_COPY_FILES += device/motorola/victara/configs/apns-conf.xml:system/etc/apns-conf.xml
