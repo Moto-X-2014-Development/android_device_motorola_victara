@@ -387,3 +387,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit APN info from device
 PRODUCT_COPY_FILES += device/motorola/victara/configs/apns-conf.xml:system/etc/apns-conf.xml
+
+# Faceunlock
+TARGET_DISABLE_ALTERNATIVE_FACE_UNLOCK := true
