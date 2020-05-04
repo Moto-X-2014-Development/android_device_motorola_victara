@@ -162,6 +162,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     device/motorola/victara/configs/hdrhax:system/vendor/etc/hdrhax
 
+TARGET_USES_QTI_CAMERA_DEVICE := true
+
 # Codec2 modules
 PRODUCT_PACKAGES += \
     com.android.media.swcodec \
